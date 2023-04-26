@@ -49,7 +49,7 @@ const Login = () => {
       const response = await login(data.email, data.password)
 
       if (response.status == 200) {
-        navigate('/notificaions')
+        navigate('/notifications')
       }
     } catch (error: any) {
       setError('afterSubmit', { ...(error as object), message: error.message })

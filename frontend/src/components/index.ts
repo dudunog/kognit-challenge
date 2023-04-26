@@ -1,2 +1,5 @@
 export { default as Loadable } from './loadable/loadable'
+export { default as Loader } from './loader/loader'
+export { default as Navbar } from './navbar/navbar'
+export { default as NotificationsMenu } from './notifications-menu/notifications-menu'
 export { default as Router } from './router/router'

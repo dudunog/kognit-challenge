@@ -1,5 +1,3 @@
-import { LoginDataProps } from '@/protocols/login'
-
 type LoginResult = {
   data: LoginSuccessResponse
   status: number
