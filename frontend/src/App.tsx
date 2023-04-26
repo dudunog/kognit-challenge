@@ -1,8 +1,9 @@
 import React from 'react'
+import { Router } from '@/components'
 
 const App = () => {
   return (
-    <h1>Hello World!</h1>
+    <Router />
   )
 }
 

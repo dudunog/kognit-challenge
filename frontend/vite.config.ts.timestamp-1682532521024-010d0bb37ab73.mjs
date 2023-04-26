@@ -1,0 +1,19 @@
+// vite.config.ts
+import { defineConfig } from "file:///C:/Users/eduar/OneDrive/Documentos/Arquivos/coding/kognit-challenge/frontend/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/eduar/OneDrive/Documentos/Arquivos/coding/kognit-challenge/frontend/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import tsconfigPaths from "file:///C:/Users/eduar/OneDrive/Documentos/Arquivos/coding/kognit-challenge/frontend/node_modules/vite-tsconfig-paths/dist/index.mjs";
+import * as path from "path";
+var __vite_injected_original_dirname = "C:\\Users\\eduar\\OneDrive\\Documentos\\Arquivos\\coding\\kognit-challenge\\frontend";
+var root = path.resolve(__vite_injected_original_dirname, "./src/**");
+var vite_config_default = defineConfig({
+  plugins: [react(), tsconfigPaths()],
+  resolve: {
+    alias: {
+      "@/*": path.resolve(root, "*")
+    }
+  }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxlZHVhclxcXFxPbmVEcml2ZVxcXFxEb2N1bWVudG9zXFxcXEFycXVpdm9zXFxcXGNvZGluZ1xcXFxrb2duaXQtY2hhbGxlbmdlXFxcXGZyb250ZW5kXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxlZHVhclxcXFxPbmVEcml2ZVxcXFxEb2N1bWVudG9zXFxcXEFycXVpdm9zXFxcXGNvZGluZ1xcXFxrb2duaXQtY2hhbGxlbmdlXFxcXGZyb250ZW5kXFxcXHZpdGUuY29uZmlnLnRzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9DOi9Vc2Vycy9lZHVhci9PbmVEcml2ZS9Eb2N1bWVudG9zL0FycXVpdm9zL2NvZGluZy9rb2duaXQtY2hhbGxlbmdlL2Zyb250ZW5kL3ZpdGUuY29uZmlnLnRzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcbmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCdcbmltcG9ydCB0c2NvbmZpZ1BhdGhzIGZyb20gJ3ZpdGUtdHNjb25maWctcGF0aHMnXG5pbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnXG5cbmNvbnN0IHJvb3QgPSBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi9zcmMvKionKVxuXG4vLyBodHRwczovL3ZpdGVqcy5kZXYvY29uZmlnL1xuZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHtcbiAgcGx1Z2luczogW3JlYWN0KCksIHRzY29uZmlnUGF0aHMoKV0sXG4gIHJlc29sdmU6IHtcbiAgICBhbGlhczoge1xuICAgICAgJ0AvKic6IHBhdGgucmVzb2x2ZShyb290LCAnKicpLFxuICAgIH1cbiAgfVxufSlcbiJdLAogICJtYXBwaW5ncyI6ICI7QUFBd2EsU0FBUyxvQkFBb0I7QUFDcmMsT0FBTyxXQUFXO0FBQ2xCLE9BQU8sbUJBQW1CO0FBQzFCLFlBQVksVUFBVTtBQUh0QixJQUFNLG1DQUFtQztBQUt6QyxJQUFNLE9BQVksYUFBUSxrQ0FBVyxVQUFVO0FBRy9DLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVMsQ0FBQyxNQUFNLEdBQUcsY0FBYyxDQUFDO0FBQUEsRUFDbEMsU0FBUztBQUFBLElBQ1AsT0FBTztBQUFBLE1BQ0wsT0FBWSxhQUFRLE1BQU0sR0FBRztBQUFBLElBQy9CO0FBQUEsRUFDRjtBQUNGLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
