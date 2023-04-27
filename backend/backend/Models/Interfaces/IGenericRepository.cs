@@ -11,5 +11,6 @@ namespace backend.Models.Interfaces
         void AddRange(IEnumerable<T> entities);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entities);
+        bool Exists(Expression<Func<T, bool>> expression);
     }
 }

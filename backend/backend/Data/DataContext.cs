@@ -10,5 +10,6 @@ namespace backend.Data
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Wallet> Wallets { get; set; }
     }
 }

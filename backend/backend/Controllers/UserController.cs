@@ -2,8 +2,6 @@
 using backend.Models.Interfaces;
 using backend.Models.Response;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Threading.Tasks;
 
 namespace backend.Controllers
 {
@@ -17,6 +15,7 @@ namespace backend.Controllers
         {
             this.userService = userService;
         }
+
         [HttpPost]
         public async Task<ActionResult> Create([FromBody] User user)
         {

@@ -7,6 +7,7 @@ namespace backend.Repositories
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected readonly DataContext _context;
+
         public GenericRepository(DataContext context)
         {
             _context = context;
@@ -45,6 +46,11 @@ namespace backend.Repositories
         public void RemoveRange(IEnumerable<T> entities)
         {
             _context.Set<T>().RemoveRange(entities);
+        }
+
+        public bool Exists(Expression<Func<T, bool>> expression)
+        {
+            return _context.Set<T>().Any(expression);
         }
     }
 }

@@ -10,9 +10,12 @@ namespace backend.Repositories
         {
             _context = context;
             Users = new UserRepository(_context);
+            Wallets = new WalletRepository(_context);
         }
 
         public IUserRepository Users { get; private set; }
+
+        public IWalletRepository Wallets { get; private set; }
 
         public int Complete()
         {

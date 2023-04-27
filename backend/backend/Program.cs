@@ -16,8 +16,11 @@ builder.Services.AddDbContext<DataContext>(options => options
     .UseSqlServer(builder.Configuration.GetConnectionString("KognitDbConnectionString")));
 
 builder.Services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IWalletRepository, WalletRepository>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<IWalletService, WalletService>();
 
 var app = builder.Build();
 
